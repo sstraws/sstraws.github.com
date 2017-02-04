@@ -1,0 +1,17 @@
+*{margin:0;padding:0;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+body{background:#222;font:13px/1.3 'Microsoft Yahei','宋体';color:#AAA;}
+.introduction {font-size:16px;width:650px;margin:60px auto;word-break:break-all;}
+.introduction .tab2{
+	text-indent: 32px;
+}
+.introduction .rightbar{
+	float:right;
+}
+
+
+/*-核心代码-*/
+.bumpy-char {line-height:2.1em;position: relative;}
